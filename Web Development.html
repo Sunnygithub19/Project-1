@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> My Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header::before {
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 105%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+
+        .navigation {
+            display: inline;
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            margin: 1px;
+            padding: 1px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            cursor: pointer;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+
+
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        .rigth {
+            font-family: 'Bree Serif', serif;
+            display: inline-block;
+            overflow: hidden;
+            position: absolute;
+            right: 750px;
+            top: 430px;
+        }
+
+        .left {
+            font-family: 'Bree Serif', serif;
+            padding-left: 750px;
+            overflow: hidden;
+        }
+
+        section {
+            height: 344px;
+            font-family: 'Bree Serif', serif;
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 1px;
+            padding: 1px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="https://www.apollo.io/companies/Sunny-Group-Of-Companies/5a9dbdcda6da98d932e20a55?chart=count"
+                        class="active">Home</a></li>
+                <li><a href="https://www.apollo.io/" class="item">About</a></li>
+                <li><a href="https://www.apollo.io/product/data/" class="item">Work</a></li>
+                <li><a href="https://www.indiacom.com/yellowpage/addyourlist.asp" class="item">Services</a></li>
+                <li><a href="https://www.naukri.com/sunny-group-of-companies-jobs-careers-775366" class="item">Blog</a>
+                </li>
+                <li><a href="https://www.indiacom.com/mumbai/sunny-group-of-companies_mumbai_mum_1055042.html"
+                        class="item">Page</a></li>
+                <li><a href="https://nicelocal.in/mumbai/entertainment/sunny_group_of_companies_corp_off/"
+                        class="item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1> Welcome to Sunny Groups</h1>
+        <p>
+            We Are A Creative Agency Located In Sydney, Australia. It Is A Long Established Fact That A Reader Will Be
+            Distracted By The Readable Content.
+        </p>
+    </section>
+    <div class="left">
+        <h3>
+            CREATIVE DESIGNS
+        </h3>
+        <p>
+            Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus.
+            Cras porttitor massa
+        </p>
+        <h3>
+            FULLY RESPONSIVE
+        </h3>
+        <p>
+            Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus.
+            Cras porttitor massa.
+        </p>
+    </div>
+    <div class="rigth">
+        <h3>
+            GREAT SUPPORT
+        </h3>
+        <p>
+            Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus.
+            Cras porttitor massa.
+        </p>
+        <h3>
+            DEDICATED TEAM
+        </h3>
+        <p>
+            Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus.
+            Cras porttitor massa.
+        </p>
+    </div>
+
+</body>
+
+</html>
